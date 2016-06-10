@@ -1,0 +1,83 @@
+/* theme: Default */
+
+html  {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+}
+
+header,
+section {
+  margin: 1em;
+}
+
+.uk-width-75 {
+  width: 75%;
+}
+
+/* Default opacity for images: 1.0; */
+img {
+transition: opacity .2s;
+-moz-transition: opacity .2s;
+-ms-transition: opacity .2s;
+-0-transition: opacity .2s;
+-webkit-transition: opacity .2s;
+}
+img:hover {
+  opacity: 0.8;
+}
+
+
+.img-inline {
+  display: inline;
+  padding-right: 0.8em;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin: 1em;
+}
+
+#navbar {
+  margin-top: 1em;
+}
+
+ul#main-menu {
+  background-color: #ffffff;
+  display: flex;
+  margin: 0;
+}
+
+ul#main-menu > li {
+  color: #231f20;
+  flex: auto;
+  font-weight: 700;
+  line-height: 3;
+  text-transform: uppercase;
+}
+
+ul#main-menu > li:last-child {
+  color: #d13d2f;
+}
+
+#newsletter {
+  background-color: #01305c;
+}
+
+#videos {
+  display: flex;
+}
+
+footer {
+  margin-bottom: 6em;
+}
+
+#phone {
+  margin-bottom: 1em;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
